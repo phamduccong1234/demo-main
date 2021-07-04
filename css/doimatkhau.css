@@ -1,0 +1,62 @@
+.change-password {
+    background: white;
+    max-width: 610px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 8px 0 #d0d0d0;
+    border-radius: 5px;
+}
+.body-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.body-form p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.body-form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid  #d6dfe6;
+    background: #f9fcff;
+    color: #7d858e;
+    padding: 10px;
+}
+.body-form input:focus{
+    border: 1px solid #0064b0;
+    outline: none;
+}
+.title-form {
+    border-bottom: 1px dotted #dae1ea;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0064b0;
+}
+.footer-form{
+    text-align: right;
+    padding: 15px;
+}
+.footer-form  button{
+    width: 144px;
+    height: 40px;
+    border:  solid 2px #0064b0 ;
+    background: white;
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 10px;
+    color: #4267b2;
+}
+
+.change-password .body-form label{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+}

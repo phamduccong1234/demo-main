@@ -1,0 +1,243 @@
+#sidebar .header {
+    display: flex;
+    border-bottom: 1px solid #09395e;
+    padding-bottom: 2px;
+}
+
+#sidebar .header img {
+    width: 54px;
+    height: 55px;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+#sidebar .content {
+    margin-top: 23px;
+    margin-left: 15px;
+}
+
+#sidebar .TinhQuangNinh {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #f2e409;
+    padding-bottom: 5px;
+}
+
+#sidebar .PhanMemCoSoDuLieu {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+}
+
+#sidebar .DanhSachTinhNang {
+    margin-top: 17px;
+    margin-left: 18px;
+    margin-bottom: 14px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+}
+
+#sidebar .Rectangle {
+    position: fixed;
+    margin-left: 17px;
+    height: 385px;
+    background-color: #ffffff;
+    max-width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sidebar .VeDauTrang {
+    width: 100%;
+    margin-left: -8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #0064b0;
+}
+
+#sidebar .VeDauTrang span {
+    zoom: 2.5;
+}
+
+#sidebar .ThongTinChung {
+    width: 100%;
+    margin-top: 16px;
+    margin-left: -8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #0064b0;
+}
+
+#sidebar .Luong {
+    width: 100%;
+    margin-top: 16px;
+    margin-left: -8px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #8e989a;
+}
+
+#sidebar .Tuyendung,
+#sidebar .Luong,
+#sidebar .TrinhDo,
+#sidebar .KhenThuong,
+#sidebar .Dacdiem,
+#sidebar .ThongTinKhac,
+#sidebar .KetQua {
+    width: 100%;
+    margin-top: 16px;
+    margin-left: -8px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #8e989a;
+}
+
+#menu-top .tiem-chup-anh-the-334-321384 img {
+    width: 45px;
+    height: 45px;
+    margin-right: 16px;
+}
+
+#menu-top .NguyenVanTien {
+    width: 100%;
+    height: 21px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: #0064b0;
+    margin-bottom: 4px;
+}
+
+#menu-top .CBNV {
+    margin-right: 12px;
+    width: 100%;
+    height: 14px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#menu-top .Group-2 {
+    width: 21px;
+    height: 21px;
+    margin: 12px 53px 0 12px;
+}
+
+#menu-top .reminder-ic {
+    width: 30px;
+    height: 30px;
+    margin: 8px 34px 7px 0;
+}
+
+#menu-top .bell-ic {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active>a,
+#sidebar ul li.active>a {
+    background: #1e78bc !important;
+}
+
+#sidebar {
+    background-image: url(../images/group-2.jpg);
+    background-color: #004376;
+    background-attachment: fixed;
+}
+
+#sidebar .dropdown-menu.show {
+    position: unset !important;
+    transform: none !important;
+    top: 0 !important;
+    left: 0 !important;
+    float: none !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#img-sub img {
+    padding-right: 20px;
+}
+
+#sidebarCollapse {
+    padding: 0;
+    color: #0064b0;
+    border: none;
+    background: none;
+    zoom: 217%;
+}
+
+.btn-noti {
+    background: none;
+    border: none;
+}
+
+.drop-noti {
+    width: 420px;
+    margin-top: 10px;
+    top: 0 !important;
+    left: -385px !important;
+    transform: translate3d(0px, 43px, 0px) !important;
+    box-shadow: 0 0 8px 0 #d0d0d0;
+}
+
+.drop-noti li {
+    padding: 10px !important;
+    border-bottom: 1px solid #dae1ea;
+}
+
+.drop-noti li:last-child {
+    border-bottom: none;
+}
+
+.drop-noti a {
+    font-size: 14px;
+    color: black;
+}
+
+.date-noti {
+    font-weight: bold !important;
+}
+
+.noti-content {
+    display: flex;
+}
+
+.noti-content img {
+    margin-right: 15px;
+}
+
+.noti-title {
+    font-weight: bold;
+}
+
+.noti-tgian {
+    color: #7d858e;
+    position: absolute;
+    right: 10px;
+}
+
+.noti-header {
+    display: flex;
+}
+
+.noti-body {
+    white-space: normal;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

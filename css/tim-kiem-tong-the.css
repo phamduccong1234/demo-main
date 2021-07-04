@@ -1,0 +1,25 @@
+.main-searchformtotal{
+    background-color: #ffffff;
+}
+table.dataTable.no-footer{
+    box-shadow: none !important;
+
+}
+
+table.dataTable tbody td{
+    padding: 14px 10px;
+}
+
+.content-data{
+    padding-bottom: 40px;   
+}
+.content-data-history{
+    position: relative;
+    padding-bottom: 20px;
+}
+.left-formsearch{
+    padding-bottom: 1px solid #dae1ea;
+}
+.tab-content{
+    border-top: 1px solid #dae1ea;
+}

@@ -1,0 +1,23 @@
+.form-baocao{
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #aaa;
+}
+.checkbox{
+    margin-top: 15px;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 10px;
+}
+.footer-baocao{
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #aaa;
+}
+.footer-baocao span{
+    font-size: 18px;
+    font-weight: bold;
+}

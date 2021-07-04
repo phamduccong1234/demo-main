@@ -1,0 +1,955 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header bg-menu">
+                <div class="img-web"><img src="./images/daugia/Brand_daugia 1.png"></div>
+            </div>
+            <ul class="list-unstyled components menu-left bg-menu">
+                <li class="menu-left-item">
+                    <a href="#">
+                        <div class="img-menu-left">
+                            <img src="./images/daugia/home.png">
+                        </div>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                <li class="menu-left-item">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="img-menu-left">
+                            <img src="./images/daugia/sell.png">
+                        </div>
+                        <span>Đấu giá</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">
+                                <div class="img-menu-left"></div>
+                                <span>Đang Đấu giá</span>
+                                <span class="badge badge-light">08</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img-menu-left"></div>
+                                <span>Lịch sử</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-left-item">
+                    <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="img-menu-left">
+                            <img src="./images/daugia/wallet.png">
+                        </div>
+                        <span>Ví & số dư</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu2">
+                        <li>
+                            <a href="#">
+                                <div class="img-menu-left"></div>
+                                <span>Nạp tiền</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img-menu-left"></div>
+                                <span>Rút tiền</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-left-item">
+                    <a href="#searchMenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <div class="img-menu-left">
+                            <img src="./images/daugia/cart.png">
+                        </div>
+                        <span>Giỏ hàng</span>
+                        <span class="badge badge-light">03</span>
+                    </a>
+                </li>
+                <li class="menu-left-item">
+                    <a href="#">
+                        <div class="img-menu-left">
+                            <img src="./images/icon/newspaper 1.png">
+                        </div>
+                        <span>Tin tức</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                    <div class="img-visible"><img src="./images/daugia/Brand_daugia 1.png"></div>
+                    <input class="txtProduct" type="text" placeholder="&#61442; Tìm sản phẩm">
+                    <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button> -->
+                    <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <input type="password" id="money" value="1,530,000,000 VNDT">
+                            </li>
+                            <li class="dropdown" id="search">
+                                <a href="#" class="nav-link nav-noti dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="eye">
+                                <a class="nav-link nav-calendar" href="#">
+                                    <i class="far fa-eye-slash"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btnDeposit">Nạp VNDT</button>
+                            </li>
+                            <li class="nav-item" id="calendar-header">
+                                <a class="nav-link nav-calendar" href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="dropdown" id="notification">
+                                <a href="#" class="nav-link nav-noti dropdown-toggle" data-toggle="dropdown">
+                                    <i class="far fa-bell"></i>
+                                    <span>99+</span>
+                                </a>
+                            </li>
+                            <li class="dropdown" id="drop-menu-tuychon">
+                                <a href="#" class="dropdown-toggle dropdown-username" data-toggle="dropdown">
+                                    <img src="./images/daugia/user.png">
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu menu-logout dropdown-menu-right">
+                                    <li class="info-account">
+                                        Tài khoản chính: <br>
+                                        <span>1,530,000,000 VNDT</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-user"></i> Hồ sơ cá nhân</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-lock"></i> Đổi mật khẩu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-map-marker-alt"></i> Địa chỉ nhận hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content  -->
+            <div class="container-fluid content-detail">
+                <section class="ftco-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="featured-carousel owl-carousel">
+                                    <div class="item">
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-11">
+                                                <div class="testimony-wrap d-md-flex">
+                                                    <div class="img">
+                                                        <img src="./images/daugia/image 7.png" alt="">
+                                                        <span class="selling-order">Đang đấu giá</span>
+                                                        <span class="slide-heart"><i class="far fa-heart"></i></span>
+                                                        <div>
+                                                            <div class="info-product">
+                                                                <div class="name-product">Robot hút bụi Xiaomi Vacuum
+                                                                    Mop 3502</div>
+                                                                <div class="time-user">
+                                                                    <span><i class="far fa-clock"></i>&nbsp;
+                                                                        00&nbsp;:&nbsp;09&nbsp;:&nbsp;09</span>
+                                                                    <span><i class="far fa-user"></i> 135</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="sub-info">
+                                                                <div class="class-product">Đồ gia dụng</div>
+                                                                <div class="price-product">Khởi điểm:
+                                                                    <span>1.300.423.000</span> VNDT
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text p-4 d-flex">
+                                                        <div class="desc w-100">
+                                                            <div class="first-info">
+                                                                <div class="title-price">
+                                                                    <p class="h3 mb-5">Giá cao nhất hiện tại (VNDT)</p>
+                                                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                                                </div>
+                                                                <div class="price-show">
+                                                                    <span>0</span>
+                                                                    <span>5</span>
+                                                                    <span>3,</span>
+                                                                    <span>2</span>
+                                                                    <span>7</span>
+                                                                    <span>5,</span>
+                                                                    <span>3</span>
+                                                                    <span>0</span>
+                                                                    <span>0,</span>
+                                                                    <span>0</span>
+                                                                    <span>0</span>
+                                                                    <span>0</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="chat-price">
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="right-chat">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                    <img src="./images/daugia/user 2.png" alt="">
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="noti-sell">
+                                                                    Nếu không có ai đặt giá thêm, phiên đấu giá sẽ kết
+                                                                    thúc trong <span>01:30:02</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="count-order">
+                                                                <div class="number">
+                                                                    <span class="minus">-</span>
+                                                                    <input type="text" value="1" />
+                                                                    <span class="plus">+</span>
+                                                                </div>
+                                                                <div class="btnOrder">
+                                                                    Đặt 53,275,300,000 VNDT
+                                                                </div>
+                                                            </div>
+                                                            <div class="price-order">
+                                                                <div class="first-price">
+                                                                    Bước giá: <span>10,000</span> VNDT
+                                                                </div>
+                                                                <div class="deposit-price">
+                                                                    Đặt cọc (10%): <span>10,000,000</span> VNDT
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-11">
+                                                <div class="testimony-wrap d-md-flex">
+                                                    <div class="img">
+                                                        <img src="./images/daugia/image 7.png" alt="">
+                                                        <span class="selling-order">Đang đấu giá</span>
+                                                        <span class="slide-heart"><i class="far fa-heart"></i></span>
+                                                        <div>
+                                                            <div class="info-product">
+                                                                <div class="name-product">Robot hút bụi Xiaomi Vacuum
+                                                                    Mop 3502</div>
+                                                                <div class="time-user">
+                                                                    <span><i class="far fa-clock"></i>&nbsp;
+                                                                        00&nbsp;:&nbsp;09&nbsp;:&nbsp;09</span>
+                                                                    <span><i class="far fa-user"></i> 135</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="sub-info">
+                                                                <div class="class-product">Đồ gia dụng</div>
+                                                                <div class="price-product">Khởi điểm:
+                                                                    <span>1.300.423.000</span> VNDT
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text p-4 d-flex">
+                                                        <div class="desc w-100">
+                                                            <div class="first-info">
+                                                                <div class="title-price">
+                                                                    <p class="h3 mb-5">Giá cao nhất hiện tại (VNDT)</p>
+                                                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                                                </div>
+                                                                <div class="price-show">
+                                                                    <span>0</span>
+                                                                    <span>5</span>
+                                                                    <span>3,</span>
+                                                                    <span>2</span>
+                                                                    <span>7</span>
+                                                                    <span>5,</span>
+                                                                    <span>3</span>
+                                                                    <span>0</span>
+                                                                    <span>0,</span>
+                                                                    <span>0</span>
+                                                                    <span>0</span>
+                                                                    <span>0</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="chat-price">
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="right-chat">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                    <img src="./images/daugia/user 2.png" alt="">
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="noti-sell">
+                                                                    Nếu không có ai đặt giá thêm, phiên đấu giá sẽ kết
+                                                                    thúc trong <span>01:30:02</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="count-order">
+                                                                <div class="number">
+                                                                    <span class="minus">-</span>
+                                                                    <input type="text" value="1" />
+                                                                    <span class="plus">+</span>
+                                                                </div>
+                                                                <div class="btnOrder">
+                                                                    Đặt 53,275,300,000 VNDT
+                                                                </div>
+                                                            </div>
+                                                            <div class="price-order">
+                                                                <div class="first-price">
+                                                                    Bước giá: <span>10,000</span> VNDT
+                                                                </div>
+                                                                <div class="deposit-price">
+                                                                    Đặt cọc (10%): <span>10,000,000</span> VNDT
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-11">
+                                                <div class="testimony-wrap d-md-flex">
+                                                    <div class="img">
+                                                        <img src="./images/daugia/image 7.png" alt="">
+                                                        <span class="selling-order">Đang đấu giá</span>
+                                                        <span class="slide-heart"><i class="far fa-heart"></i></span>
+                                                        <div>
+                                                            <div class="info-product">
+                                                                <div class="name-product">Robot hút bụi Xiaomi Vacuum
+                                                                    Mop 3502</div>
+                                                                <div class="time-user">
+                                                                    <span><i class="far fa-clock"></i>&nbsp;
+                                                                        00&nbsp;:&nbsp;09&nbsp;:&nbsp;09</span>
+                                                                    <span><i class="far fa-user"></i> 135</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="sub-info">
+                                                                <div class="class-product">Đồ gia dụng</div>
+                                                                <div class="price-product">Khởi điểm:
+                                                                    <span>1.300.423.000</span> VNDT
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text p-4 d-flex">
+                                                        <div class="desc w-100">
+                                                            <div class="first-info">
+                                                                <div class="title-price">
+                                                                    <p class="h3 mb-5">Giá cao nhất hiện tại (VNDT)</p>
+                                                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                                                </div>
+                                                                <div class="price-show">
+                                                                    <span>0</span>
+                                                                    <span>5</span>
+                                                                    <span>3,</span>
+                                                                    <span>2</span>
+                                                                    <span>7</span>
+                                                                    <span>5,</span>
+                                                                    <span>3</span>
+                                                                    <span>0</span>
+                                                                    <span>0,</span>
+                                                                    <span>0</span>
+                                                                    <span>0</span>
+                                                                    <span>0</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="chat-price">
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="right-chat">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                    <img src="./images/daugia/user 2.png" alt="">
+                                                                </div>
+                                                                <div class="left-chat">
+                                                                    <img src="./images/daugia/user 1.png" alt="">
+                                                                    <span>53,265,000,000 VNDT</span>
+                                                                </div>
+                                                                <div class="noti-sell">
+                                                                    Nếu không có ai đặt giá thêm, phiên đấu giá sẽ kết
+                                                                    thúc trong <span>01:30:02</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="count-order">
+                                                                <div class="number">
+                                                                    <span class="minus">-</span>
+                                                                    <input type="text" value="1" />
+                                                                    <span class="plus">+</span>
+                                                                </div>
+                                                                <div class="btnOrder">
+                                                                    Đặt 53,275,300,000 VNDT
+                                                                </div>
+                                                            </div>
+                                                            <div class="price-order">
+                                                                <div class="first-price">
+                                                                    Bước giá: <span>10,000</span> VNDT
+                                                                </div>
+                                                                <div class="deposit-price">
+                                                                    Đặt cọc (10%): <span>10,000,000</span> VNDT
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="banner">
+                    <img src="./images/daugia/banner 1.png" alt="">
+                    <img src="./images/daugia/banner 2.png" alt="">
+                    <img src="./images/daugia/banner 3.png" alt="">
+                    <img src="./images/daugia/banner 1.png" alt="">
+                </div>
+                <div class="list-product">
+                    <div class="content-product">
+                        <div class="title-list">Đấu giá nổi bật</div>
+                        <div class="all-list">
+                            Xem tất cả
+                            <span><i class="fas fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="show-list">
+                        <div class="row config-list">
+                            <div class="col-xs-12 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-product padding-list">
+                    <div class="content-product">
+                        <div class="title-list">Sắp đấu giá</div>
+                        <div class="all-list">
+                            Xem tất cả
+                            <span><i class="fas fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="show-list">
+                        <div class="row config-list">
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="config-product">
+                                    <img src="./images/daugia/image 7.png" alt="">
+                                    <span class="time-sell">08:20:03</span>
+                                    <span class="like"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="detail-product">
+                                    Chuột gaming Fulen 520k Zen 20
+                                </div>
+                                <div class="detail-price">
+                                    <div>
+                                        5,302,000 VNDT
+                                    </div>
+                                    <div>
+                                        <i class="far fa-user"></i> 135
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-product get-coupon padding-list-up">
+                    <div class="content-coupon">
+                        <div class="title-list">Săn vé</div>
+                        <div class="all-list">
+                            Xem tất cả
+                            <span><i class="fas fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="coupon">
+                        <img src="./images/daugia/coupon.png" alt="">
+                        <img src="./images/daugia/coupon 2.png" alt="">
+                        <img src="./images/daugia/coupon 3.png" alt="">
+                        <img src="./images/daugia/coupon 3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="list-product padding-list-up">
+                    <div class="content-product">
+                        <div class="title-list">Tin tức</div>
+                        <div class="all-list">
+                            Xem tất cả
+                            <span><i class="fas fa-angle-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="show-list">
+                        <div class="row config-list">
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="card">
+                                    <img class="card-img-top" src="./images/daugia/map.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Card description. Lorem ipsum dolor sit amet, cxzvs</p>
+                                        <p class="card-text-2">06:05 13/06/2021</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="card">
+                                    <img class="card-img-top" src="./images/daugia/mac.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Card description. Lorem ipsum dolor sit amet, cxzvs</p>
+                                        <p class="card-text-2">06:05 13/06/2021</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="card">
+                                    <img class="card-img-top" src="./images/daugia/iphone.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Card description. Lorem ipsum dolor sit amet, cxzvs</p>
+                                        <p class="card-text-2">06:05 13/06/2021</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="card">
+                                    <img class="card-img-top" src="./images/daugia/bubble.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Card description. Lorem ipsum dolor sit amet, cxzvs</p>
+                                        <p class="card-text-2">06:05 13/06/2021</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="card">
+                                    <img class="card-img-top" src="./images/daugia/pyramid.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Card description. Lorem ipsum dolor sit amet, cxzvs</p>
+                                        <p class="card-text-2">06:05 13/06/2021</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2 config-main">
+                                <div class="card">
+                                    <img class="card-img-top" src="./images/daugia/abc.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Card description. Lorem ipsum dolor sit amet, cxzvs</p>
+                                        <p class="card-text-2">06:05 13/06/2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-information padding-list-large">
+                    <div class="row">
+                        <div class="col-xs-2 col-md-2 support">
+                            <h5>Chăm sóc khách hàng</h5>
+                            <p>
+                                <a href="#">Trung tâm trợ giúp</a> <br>
+                                <a href="#">Hướng dẫn mua hàng</a> <br>
+                                <a href="#">Thanh toán</a> <br>
+                                <a href="#">Săn vé sự kiện</a>
+                            </p>
+                        </div>
+                        <div class="col-xs-2 col-md-3 delivery">
+                            <h5>a</h5>
+                            <p>
+                                <a href="#">Vận chuyển</a> <br>
+                                <a href="#">Trả hàng và hoàn tiền</a> <br>
+                                <a href="#">Chăm sóc khách hàng</a> <br>
+                                <a href="#">Chính Sách Bảo Hành</a>
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-md-2 link-connect">
+                            <h5>Liên kết</h5>
+                            <p>
+                                <a href="#">AC Group</a> <br>
+                                <a href="#">AC Wallet</a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-md-5 address">
+                            <h5>Công ty Cổ phần Tập đoàn Đầu tư và Phát triển Dự án Á Châu</h5>
+                            <p>
+                                Địa chỉ: Tầng 4, TTTM V+, Số 505 Minh Khai, P. Vĩnh Tuy, Q.Hai Bà Trưng, Tp. Hà Nội <br>
+                                Điện thoại: 024.268.66666 - số máy lẻ 204 <br>
+                                Email: contact@daugia.io <br>
+                                Website: https://daugia.io
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                Bản quyền <i class="far fa-copyright"></i> 2021 Công ty Cổ phần Tập đoàn Đầu tư và Phát triển Dự án Á
+                Châu
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+            $('a.toggle-vis1').on('click', function (e) {
+                e.preventDefault();
+
+                // Get the column API object
+                var column = tb1.column($(this).attr('data-column'));
+
+                // Toggle the visibility
+                column.visible(!column.visible());
+            });
+            $('a.toggle-vis2').on('click', function (e) {
+                e.preventDefault();
+
+                // Get the column API object
+                var column = tb2.column($(this).attr('data-column'));
+
+                // Toggle the visibility
+                column.visible(!column.visible());
+            });
+
+            $('#eye a').on('click', function () {
+
+                if ($(this).hasClass('fa-eye-slash')) {
+
+                    $(this).removeClass('fa-eye-slash');
+
+                    $(this).addClass('fa-eye');
+
+                    $('#money').attr('type', 'text');
+
+                } else {
+
+                    $(this).removeClass('fa-eye');
+
+                    $(this).addClass('fa-eye-slash');
+
+                    $('#money').attr('type', 'password');
+                }
+            });
+
+        });
+        var options = [];
+        $('.dropdown-menu a').on('click', function (event) {
+            var $target = $(event.currentTarget),
+                val = $target.attr('data-value'),
+                $inp = $target.find('input'),
+                idx;
+
+            if ((idx = options.indexOf(val)) > -1) {
+                options.splice(idx, 1);
+                $inp.prop('checked', false);
+            } else {
+                options.push(val);
+                $inp.prop('checked', true);
+            }
+
+            return false;
+        });
+    </script>
+</body>
+
+</html>

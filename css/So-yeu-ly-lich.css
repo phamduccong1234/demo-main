@@ -1,0 +1,47 @@
+.box-xuatfile{
+    margin-right: 15px;
+}
+.btn-left{
+    display: flex;
+}
+.group-button-table button{
+    padding: 5px 40px;
+    margin-right: 15px;
+}
+.form-header{
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 8px 0 #d0d0d0;
+}
+
+form .select-donvi .select2.form-control ~ .select2 {
+    display: block;
+    width: 80% !important;
+}
+.chondonvi{
+    display: flex;
+}
+.btn-inphieu{
+    margin-left: 15px;
+    padding: 5px 40px;
+}
+form .select-chitiet .select2.form-control ~ .select2 {
+    display: block;
+    width: 75% !important;
+}
+.chonchitiet{
+    display: flex;
+}
+.btn-locdulieu{
+    margin-left: 35px;
+    padding: 5px 20px;
+}
+.group-button-table{
+    display: flex;
+}
+.btn-duyet-table, .btn-tu-choi-table{
+    padding: 5px 20px !important;
+    margin-right: 15px !important;
+    width: 100px;
+}
+
